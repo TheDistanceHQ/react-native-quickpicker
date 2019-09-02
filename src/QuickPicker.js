@@ -94,7 +94,7 @@ const pickerStore = {
       minuteInterval = null;
       pickerStore.updateSubscriber();
     } else {
-      setTimeout(() => {
+      // setTimeout(() => {
         onValueChange = () => null;
         onTapOut = null;
         onPressDone = null;
@@ -109,7 +109,7 @@ const pickerStore = {
         minimumDate = null;
         maximumDate = null;
         pickerStore.updateSubscriber();
-      }, 250);
+      // }, 250);
 
       pickerStore.updateSubscriber();
     }
